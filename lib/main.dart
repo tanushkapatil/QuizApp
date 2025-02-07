@@ -9,9 +9,10 @@ void main() {
           decoration: const BoxDecoration(
             gradient: LinearGradient(
               colors: [
-                Color(0xFF09203F), // #09203F
-                Color(0xFF537895), // #537895
-              ],
+              Color(0xFF000328), // Dark blue shade
+              Color(0xFF00458E), // Medium blue shade
+            ],
+
               begin: Alignment.topCenter,
               end: Alignment.bottomCenter,
             ),
