@@ -12,8 +12,8 @@ void main() {
                 Color(0xFF09203F), // #09203F
                 Color(0xFF537895), // #537895
               ],
-              begin: Alignment.topLeft,
-              end: Alignment.bottomRight,
+              begin: Alignment.topCenter,
+              end: Alignment.bottomCenter,
             ),
           ),
           child: const StartScreen()),
