@@ -28,8 +28,15 @@ class StartScreen extends StatelessWidget{
             style: OutlinedButton.styleFrom(
               foregroundColor: Color.fromARGB(255, 188, 220, 255),
             ),
-            child: Text("Start Quiz"),
-          )
+            child: Row(
+              mainAxisSize: MainAxisSize.min, // Keeps the button compact
+              children: [
+                Text("Start Quiz"),
+                SizedBox(width: 8), // Adds space between text and icon
+                Icon(Icons.arrow_right_alt),
+              ],
+            ),
+          ),
         ],
       ),
     );
